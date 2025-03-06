@@ -2,9 +2,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Student[] students = new Student[3];
-        students[0] = new Student("Смирнов А.А.", "89008554224", 19, 3, "Программирование", 2022);
-        students[1] = new Student("Сидоров А.А.", "89998887766", 21, 5, "Журналистика", 2020);
-        students[2] = new Student("Петров П.П.", "89898787676", 18, 2, "Ядерная Физика", 2023);
+        students[0] = new Student("Смирнов А.А.", "89008554224", 19, 3, "ИТ", 2022);
+        students[1] = new Student("Сидоров А.А.", "89998887766", 21, 5, "ПТ", 2020);
+        students[2] = new Student("Петров П.П.", "89898787676", 18, 2, "ИТ", 2023);
         Scanner input = new Scanner(System.in);
         System.out.println("Студенты: ");
         for (Student student : students) {
