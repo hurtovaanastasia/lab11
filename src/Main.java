@@ -14,7 +14,7 @@ public class Main {
         String fakul = input.nextLine();
         System.out.println("Студенты данного факультета: " + fakul);
         for (Student student : students) {
-            if (student.Faculty == fakul) {
+            if (student.Faculty.equals(fakul)) {
                 System.out.println(student.FIO);
             }
         }
